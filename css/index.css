@@ -1,0 +1,50 @@
+@charset 'utf-8';
+			div,img{
+				margin: 0;
+				padding: 0;
+			}
+			#container{
+				width: 500px;
+				height: 300px;
+				margin: 0 auto;
+				margin-top: 200px;
+			}
+			.small-pic{
+				position: relative;
+				width: 242px;
+				height: 242px;
+				border: 1px solid #666666;
+			}
+			.small-div{
+				width: 165px;
+				height: 165px;
+				background-color: #666666;
+				opacity: 0.5;
+				position: absolute;
+				top: 0px;
+				left: 0px;
+			}
+			.big-div{
+				width: 245px;
+				height: 245px;
+				border: 1px solid red;
+			}
+			.img{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+			}
+			.big-pic{
+				width: 242px;
+				height: 242px;
+				border: 1px solid #666666;
+				position: absolute;
+				top: 0px;
+				left: 260px;
+				overflow: hidden;
+			}
+			.last-one{
+				position: absolute;
+				top: 0px;
+				left: 0px;
+			}
